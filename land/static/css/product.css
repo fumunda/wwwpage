@@ -8,8 +8,18 @@
 #onepagenav .mega-menu .menu-links > li > a { font-size: 16px; text-transform: uppercase; font-weight: bold; }
 
 /*banner*/
-.product-banner .slider-content { width: 100%;  }
-.product-banner .slider-content h1 { font-size: 80px; line-height: 80px; }
+.product-banner {
+    background-color: #242424;
+    background-image: url(/static/img/hex.svg);
+    background-size: 4rem;
+    background-size: 6em !important;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.product-banner .slider-content { 
+    width: 100%;  
+}
+.product-banner .slider-content h1 { font-size: 60px; line-height: 68px; }
 .product-banner .slider-content p { font-size: 24px; line-height: 24px; }
 
 /*product-about*/
