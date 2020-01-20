@@ -21,6 +21,14 @@
     background-attachment: fixed;
 }
 
+.custom-block {
+    background-color: #242424;
+    background-image: url(/static/img/hex.svg);
+    background-size: 8em !important;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 .product-banner .slider-content { 
     width: 100%;  
 }
