@@ -21,6 +21,14 @@
     background-attachment: fixed;
 }
 
+.page-title {
+    background-color: #242424;
+    background-image: url(/static/img/hex.svg);
+    background-size: 6rem !important;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 .custom-block {
     background-color: #242424;
     background-image: url(/static/img/hex.svg);
