@@ -17,7 +17,7 @@ urlpatterns = [
 
 pages = [
     'privacy',
-    'impressum',
+    'imprint',
     'about',
     'cookies',
 ]
