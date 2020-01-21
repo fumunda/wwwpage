@@ -1,4 +1,4 @@
-{% load static %}
+{% load static i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,16 +60,16 @@
         <!-- menu logo -->
         <ul class="menu-logo">
             <li>
-                <a href="index-01.html"><img id="logo_img" class="img-fluid" src="{% static 'img/logo-white.svg' %}" alt=""> </a>
+                <a href="{% url 'land:index' %}"><img id="logo_img" class="img-fluid" src="{% static 'img/logo-white.svg' %}" alt=""> </a>
             </li>
         </ul>
         <!-- menu links -->
         <div class="menu-bar">
          <ul class="menu-links">
-            <li class="active"><a href="{% url 'land:index' %}#homesection">Home</a></li>
-            <li><a href="{% url 'land:index' %}#feature">Features</a></li>
+            <li class="active"><a href="{% url 'land:index' %}#homesection">{% trans 'Home' %}</a></li>
+            <li><a href="{% url 'land:index' %}#feature">{% trans 'Features'%}</a></li>
             <li>
-              <a href="javascript:void(0)">Resources<i class="fa fa-angle-down fa-indicator"></i></a>
+              <a href="javascript:void(0)">{% trans 'Resources' %}<i class="fa fa-angle-down fa-indicator"></i></a>
               <ul class="drop-down-multilevel">
                 <li><a href="https://github.com/ciur/papermerge">Source Code</a></li>
                 <li><a href="#">Documentation</a></li>
