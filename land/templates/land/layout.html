@@ -67,7 +67,7 @@
         <div class="menu-bar">
          <ul class="menu-links">
             <li class="active"><a href="{% url 'land:index' %}#homesection">Home</a></li>
-            <li><a href="#feature">Features</a></li>
+            <li><a href="{% url 'land:index' %}#feature">Features</a></li>
             <li>
               <a href="javascript:void(0)">Resources<i class="fa fa-angle-down fa-indicator"></i></a>
               <ul class="drop-down-multilevel">
@@ -75,8 +75,8 @@
                 <li><a href="#">Documentation</a></li>
               </ul>
             </li>
-            <li><a href="#mission">Mission</a></li>
-            <li><a href="#consulting">Consulting</a></li>
+            <li><a href="{% url 'land:index' %}#mission">Mission</a></li>
+            <li><a href="{% url 'land:index' %}#consulting">Consulting</a></li>
           </ul>
         </div>
        </div>
