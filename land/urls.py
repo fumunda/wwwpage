@@ -3,6 +3,8 @@ from django.urls import path
 from land import views
 from land.views import PageView
 
+app_name = 'land'
+
 urlpatterns = [
     path('', views.index, name='index'),
     path(

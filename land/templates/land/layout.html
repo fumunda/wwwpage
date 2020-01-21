@@ -66,7 +66,7 @@
         <!-- menu links -->
         <div class="menu-bar">
          <ul class="menu-links">
-            <li class="active"><a href="#homesection">Home</a></li>
+            <li class="active"><a href="{% url 'land:index' %}#homesection">Home</a></li>
             <li><a href="#feature">Features</a></li>
             <li>
               <a href="javascript:void(0)">Resources<i class="fa fa-angle-down fa-indicator"></i></a>
@@ -119,7 +119,7 @@
         <h6 class="text-white mb-30 mt-10 text-uppercase">Useful Link</h6>
         <ul>
           <li><a href="#">Privacy Policy</a></li>
-          <li><a href="{% url 'cookies' %}">Cookie Policy</a></li>
+          <li><a href="{% url 'land:cookies' %}">Cookie Policy</a></li>
           <li><a href="#">Terms of Service</a></li>
           <li><a href="#">Imprint</a></li>
         </ul>
