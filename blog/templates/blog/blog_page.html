@@ -13,7 +13,8 @@
               <h1>{{ page.title }}</h1>
             </div>
               <ul class="page-breadcrumb">
-                <li><a href="#"><i class="fa fa-home"></i> Blog </a> <i class="fa fa-angle-double-right"></i></li>
+                <li><a href="{% url 'land:index' %}"><i class="fa fa-home"></i> Home </a> <i class="fa fa-angle-double-right"></i></li>
+                <li><a href="{% slugurl 'blog' %}"> Blog </a> <i class="fa fa-angle-double-right"></i></li>
                 <li><span>{{ page.title }}</span> </li>
            </ul>
          </div>
