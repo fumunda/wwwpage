@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 15:46+0200\n"
+"POT-Creation-Date: 2020-04-13 16:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/land/index.html:16
 msgid "Open Source Document Management System"
-msgstr ""
+msgstr "Open Source Dokumenten Management System"
 
 #: templates/land/index.html:18
 msgid ""
@@ -72,14 +72,18 @@ msgid "So that you can organize files any way you like."
 msgstr ""
 
 #: templates/land/layout.html:3
-msgid " en "
-msgstr " de "
+#, fuzzy
+#| msgid " en "
+msgid "en"
+msgstr "de"
 
 #: templates/land/layout.html:7
 msgid ""
 " OCR documents document management system dms open source scans scanned pdf "
 "archives"
-msgstr "OCR Dokumente Dokument Dokumentenmanagement Dokumentenverwaltungssystem DMS open source scans gescannt pdf"
+msgstr ""
+"OCR Dokumente Dokument Dokumentenmanagement Dokumentenverwaltungssystem DMS "
+"open source scans gescannt pdf"
 
 #: templates/land/layout.html:8
 msgid ""
@@ -89,12 +93,11 @@ msgid ""
 "can quickly scan them and configure your scanner to directly upload to "
 "Papermerge DMS."
 msgstr ""
-"Papermerge ist ein Open Source Dokumentenmanagementsystem (DMS)"
-" zum Archivieren und Abrufen Ihrer Dokumente."
-" Anstatt Stapel von Papierdokumenten auf Ihrem Schreibtisch,"
-" Büro oder in Ihren Schubladen zu haben, können Sie diese schnell"
-" scannen und Ihren Scanner so konfigurieren, dass sie direkt in Papermerge"
-" DMS hochgeladen werden."
+"Papermerge ist ein Open Source Dokumentenmanagementsystem (DMS) zum "
+"Archivieren und Abrufen Ihrer Dokumente. Anstatt Stapel von Papierdokumenten "
+"auf Ihrem Schreibtisch, Büro oder in Ihren Schubladen zu haben, können Sie "
+"diese schnell scannen und Ihren Scanner so konfigurieren, dass sie direkt in "
+"Papermerge DMS hochgeladen werden."
 
 #: templates/land/layout.html:9
 msgid " papermerge.com "
