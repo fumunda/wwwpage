@@ -2,3 +2,4 @@ django
 gunicorn
 wagtail
 psycopg2
+sentry-sdk
