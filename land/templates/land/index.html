@@ -40,10 +40,14 @@
          <img class="img-fluid mx-auto p-4" src="{% static 'img/screenshot01.png' %}" alt="">
        </div>
         <div class="col-lg-6">
-         <h3>Hey, Mr. Document, where are you?</h3>
-         <h4 class="mb-20">Paper based documents have an issue. They are not there at the moment you need them!</h4>
-         <p>Instead of keeping documents, receipts, letters in drawers, cabinets or around office desk you can <span class="theme-color">scan</span> and feed them to a perfectly designed software to <span class="theme-color">store, OCR and index</span> their digital version.</p>
-         <a class="button mt-30" href="#">Learn more</a>
+         <h3>{% trans "Hey, Mr. Document, where are you?" %}</h3>
+         <h4 class="mb-20">{% trans "Paper based documents have an issue. They are not there at the moment you need them!" %}</h4>
+         <p>
+          {% blocktrans %}
+          Instead of keeping documents, receipts, letters in drawers, cabinets or around office desk you can <span class="theme-color">scan</span> and feed them to a perfectly designed software to <span class="theme-color">store, OCR and index</span> their digital version.
+          {% endblocktrans %}
+         </p>
+         <a class="button mt-30" href="#">{% trans "Read More" %}</a>
        </div>
      </div>
   </div>
@@ -60,7 +64,7 @@
      <div class="row justify-content-center">
        <div class="col-lg-9 text-center">
         <div class="section-title">
-           <h2>It has exactly what you need.</h2>
+           <h2>{% trans "It has exactly what you need." %}</h2>
          </div>
         </div>
       </div>
@@ -71,8 +75,8 @@
               <span class="ti-folder"></span>
             </div>
             <div class="feature-info">
-              <h4 class="theme-color">Folder Structure</h4>
-              <p>So that you can organize files any way you like.</p>
+              <h4 class="theme-color">{% trans "Folder Structure" %}</h4>
+              <p>{% trans "So that you can organize files any way you like." %}</p>
             </div>
           </div>
           <div class="feature-text left-icon round feature-border mb-60">
