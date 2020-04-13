@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 16:38+0200\n"
+"POT-Creation-Date: 2020-04-13 16:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -72,8 +72,6 @@ msgid "So that you can organize files any way you like."
 msgstr ""
 
 #: templates/land/layout.html:3
-#, fuzzy
-#| msgid " en "
 msgid "en"
 msgstr "de"
 
@@ -100,8 +98,8 @@ msgstr ""
 "Papermerge DMS hochgeladen werden."
 
 #: templates/land/layout.html:9
-msgid " papermerge.com "
-msgstr " papermerge.de "
+msgid "papermerge.com"
+msgstr "papermerge.de"
 
 #: templates/land/layout.html:71 templates/land/layout.html:113
 msgid "Home"
