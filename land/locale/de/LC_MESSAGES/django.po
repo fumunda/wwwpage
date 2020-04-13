@@ -1,17 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# German translation file for https://papermerge.de
+# Copyright (C) 2020 Eugen Ciur
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Eugen Ciur <eugen@papermerge>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 15:25+0200\n"
+"POT-Creation-Date: 2020-04-13 15:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
+"Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +31,74 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Entwickelt für  <span class=\"theme-color\">gescannte</span> Dokumente. Perfekte Lösung, mit der Sie Papierkram reduzieren und Ihr Unternehmen organisieren können"
+"Entwickelt für  <span class=\"theme-color\">gescannte</span> Dokumente. "
+"Perfekte Lösung, mit der Sie Papierkram reduzieren und Ihr Unternehmen "
+"organisieren können"
 
-#: templates/land/index.html:22
+#: templates/land/index.html:22 templates/land/index.html:50
 msgid "Read More"
 msgstr "Mehr erfahren"
+
+#: templates/land/index.html:43
+msgid "Hey, Mr. Document, where are you?"
+msgstr "Hey, Herr Dokument, wo bist du?"
+
+#: templates/land/index.html:44
+msgid ""
+"Paper based documents have an issue. They are not there at the moment you "
+"need them!"
+msgstr ""
+
+#: templates/land/index.html:46
+msgid ""
+"\n"
+"          Instead of keeping documents, receipts, letters in drawers, "
+"cabinets or around office desk you can <span class=\"theme-color\">scan</"
+"span> and feed them to a perfectly designed software to <span class=\"theme-"
+"color\">store, OCR and index</span> their digital version.\n"
+"          "
+msgstr ""
+
+#: templates/land/index.html:67
+msgid "It has exactly what you need."
+msgstr ""
+
+#: templates/land/index.html:78
+msgid "Folder Structure"
+msgstr ""
+
+#: templates/land/index.html:79
+msgid "So that you can organize files any way you like."
+msgstr ""
+
+#: templates/land/layout.html:3
+msgid " en "
+msgstr " de "
+
+#: templates/land/layout.html:7
+msgid ""
+" OCR documents document management system dms open source scans scanned pdf "
+"archives"
+msgstr "OCR Dokumente Dokument Dokumentenmanagement Dokumentenverwaltungssystem DMS open source scans gescannt pdf"
+
+#: templates/land/layout.html:8
+msgid ""
+"Papermerge is an open source document management system (DMS) primarily "
+"designed for archiving and retrieving your digital documents. Instead of "
+"having piles of paper documents all over your desk, office or drawers - you "
+"can quickly scan them and configure your scanner to directly upload to "
+"Papermerge DMS."
+msgstr ""
+"Papermerge ist ein Open Source Dokumentenmanagementsystem (DMS)"
+" zum Archivieren und Abrufen Ihrer Dokumente."
+" Anstatt Stapel von Papierdokumenten auf Ihrem Schreibtisch,"
+" Büro oder in Ihren Schubladen zu haben, können Sie diese schnell"
+" scannen und Ihren Scanner so konfigurieren, dass sie direkt in Papermerge"
+" DMS hochgeladen werden."
+
+#: templates/land/layout.html:9
+msgid " papermerge.com "
+msgstr " papermerge.de "
 
 #: templates/land/layout.html:71 templates/land/layout.html:113
 msgid "Home"
