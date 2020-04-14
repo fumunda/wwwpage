@@ -155,16 +155,18 @@
            <div class="play-video border-video text-center animated6 mt-50">
              <a class="view-video popup-youtube" href="https://www.youtube.com/watch?v=U_x8fOhuMTI"> <i class="fa fa-play"></i> </a>
            </div>
-           <h3 class="text-uppercase text-white mt-30">See Papermerge Demo Video</h3>
+           <h3 class="text-uppercase text-white mt-30">{% trans "See Papermerge Demo Video" %}</h3>
          </div>
        </div>
         <div class="col-md-6 product-video-box bg-overlay-black-70 parallax">
          <div class="vertical-align text-center">
              <h3 class="text-white">
+              {% blocktrans %}
               It was born out of necessity to organize paper documents. It is light, practical and easy to use. There are may people who find
               it very useful so you may find it useful too.
+              {% endblocktrans %}
             </h3>
-             <a class="button mt-30" href="#">Read More</a>
+             <a class="button mt-30" href="#">{% trans "Read More" %}</a>
         </div>
        </div>
      </div>
@@ -183,7 +185,7 @@
     <div class="row justify-content-center">
        <div class="col-lg-9 text-center">
         <div class="section-title">
-           <h2>Even More Features</h2>
+           <h2>{% trans "Even More Features" %}</h2>
          </div>
         </div>
       </div>
@@ -194,9 +196,9 @@
               <i class="ti-cloud-up"></i>
             </div>
             <div class="feature-info">
-              <h4 class="theme-color">Cloud/S3 Storage</h4>
-              <p>Cloud native from the start. You can choose/cofigure it to store
-              all documents in S3 storage.</p>
+              <h4 class="theme-color">{% trans "Cloud/S3 Storage" %}</h4>
+              <p>{% blocktrans %}Cloud native from the start. You can choose/cofigure it to store
+              all documents in S3 storage.{% endblocktrans %}</p>
             </div>
           </div>
        </div>
@@ -206,8 +208,10 @@
                 <i class="fa fa-users"></i>
               </div>
             <div class="feature-info">
-              <h4 class="theme-color">Multi User</h4>
-              <p>Papermerge DMS is a multi user system. You can manage rights and permissions per user.</p>
+              <h4 class="theme-color">{% trans "Multi User" %}</h4>
+              <p>{% blocktrans %}
+                Papermerge DMS is a multi user system. You can manage rights and permissions per user.
+              {% endblocktrans %}</p>
             </div>
           </div>
        </div>
@@ -217,8 +221,8 @@
                 <span class="ti-infinite"></span>
               </div>
              <div class="feature-info">
-                <h4 class="theme-color">Highly Scalable</h4>
-                <p>It does not matter how many documents you want to OCR, store and index. Papermerge is highly scalable.</p>
+                <h4 class="theme-color">{% trans "Highly Scalable" %}</h4>
+                <p>{% blocktrans %}It does not matter how many documents you want to OCR, store and index. Papermerge is highly scalable.{% endblocktrans %}</p>
               </div>
           </div>
        </div>
@@ -228,8 +232,8 @@
                 <span class="ti-world"></span>
               </div>
             <div class="feature-info">
-              <h4 class="theme-color">REST API</h4>
-              <p>Want to import documents from SFTP account? Or maybe import all your EMail attachments? REST API is always there to assist you.</p>
+              <h4 class="theme-color">{% trans "REST API" %}</h4>
+              <p>{% blocktrans %}Want to import documents from SFTP account? Or maybe import all your EMail attachments? REST API is always there to assist you.{% endblocktrans %}</p>
             </div>
           </div>
        </div>
