@@ -147,26 +147,30 @@ msgid ""
 "              it very useful so you may find it useful too.\n"
 "              "
 msgstr ""
+"\n"
+"Es wurde entwickelt aus der Notwendigkeit, Papierdokumente zu organisieren."
+"Es ist leicht, praktisch und einfach zu bedienen. Es gibt vielleicht Leute, die finden "
+"es ist sehr nützlich, so dass Sie es auch nützlich finden können."
 
 #: land/templates/land/index.html:188
-#, fuzzy
-#| msgid "Features"
 msgid "Even More Features"
-msgstr "Was es hat"
+msgstr "Es hat noch mehr"
 
 #: land/templates/land/index.html:199
 msgid "Cloud/S3 Storage"
-msgstr ""
+msgstr "Cloud/S3 Speicherung"
 
 #: land/templates/land/index.html:200
 msgid ""
 "Cloud native from the start. You can choose/cofigure it to store\n"
 "              all documents in S3 storage."
 msgstr ""
+"Cloud freundlich von Anfang an. Sie können es konfigurieren, "
+" um alle Dokumente im S3-Speicher zu speichern. "
 
 #: land/templates/land/index.html:211
 msgid "Multi User"
-msgstr ""
+msgstr "Multi User"
 
 #: land/templates/land/index.html:212
 msgid ""
@@ -175,20 +179,25 @@ msgid ""
 "and permissions per user.\n"
 "              "
 msgstr ""
+"\n"
+"Papermerge DMS ist ein Mehrbenutzersystem. Sie können Rechte und Berechtigungen "
+"pro Benutzer order pro Ordner verwalten."
 
 #: land/templates/land/index.html:224
 msgid "Highly Scalable"
-msgstr ""
+msgstr "Hoch skalierbar"
 
 #: land/templates/land/index.html:225
 msgid ""
 "It does not matter how many documents you want to OCR, store and index. "
 "Papermerge is highly scalable."
 msgstr ""
+"Es spielt keine Rolle, wie viele Dokumente Sie OCR, speichern "
+" und indizieren möchten. Papermerge ist hoch skalierbar."
 
 #: land/templates/land/index.html:235
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: land/templates/land/index.html:236
 msgid ""
