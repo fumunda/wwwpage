@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-14 08:36+0200\n"
+"POT-Creation-Date: 2020-04-14 09:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/land/index.html:16
+#: land/templates/land/index.html:16
 msgid "Open Source Document Management System"
 msgstr "Open Source Dokumenten Management System"
 
-#: templates/land/index.html:18
+#: land/templates/land/index.html:18
 msgid ""
 "\n"
 "              Designed for <span class=\"theme-color\">scanned</span> "
@@ -35,16 +35,16 @@ msgstr ""
 "Perfekte Lösung, mit der Sie Papierkram reduzieren und Ihr Unternehmen "
 "organisieren können"
 
-#: templates/land/index.html:22 templates/land/index.html:50
-#: templates/land/index.html:169
+#: land/templates/land/index.html:22 land/templates/land/index.html:50
+#: land/templates/land/index.html:169
 msgid "Read More"
 msgstr "Mehr erfahren"
 
-#: templates/land/index.html:43
+#: land/templates/land/index.html:43
 msgid "Hey, Mr. Document, where are you?"
 msgstr "Hey, Herr Dokument, wo bist du?"
 
-#: templates/land/index.html:44
+#: land/templates/land/index.html:44
 msgid ""
 "Paper based documents have an issue. They are not there at the moment you "
 "need them!"
@@ -52,7 +52,7 @@ msgstr ""
 "Papierbasierte Dokumente haben ein Problem. Sie sind nicht da, wenn Sie sie "
 "brauchen!"
 
-#: templates/land/index.html:46
+#: land/templates/land/index.html:46
 msgid ""
 "\n"
 "          Instead of keeping documents, receipts, letters in drawers, "
@@ -67,31 +67,31 @@ msgstr ""
 "schenken Sie sie an eine perfekt gestaltete Software zum Speichern,  OCR und "
 "Indizieren ihrer digitalen Version."
 
-#: templates/land/index.html:67
+#: land/templates/land/index.html:67
 msgid "It has exactly what you need."
 msgstr "Es hat genau das, was Sie brauchen."
 
-#: templates/land/index.html:78
+#: land/templates/land/index.html:78
 msgid "Folder Structure"
 msgstr "Ordnerstruktur"
 
-#: templates/land/index.html:79
+#: land/templates/land/index.html:79
 msgid "So that you can organize files any way you like."
 msgstr "Damit Sie Dateien nach Belieben organisieren können."
 
-#: templates/land/index.html:87
+#: land/templates/land/index.html:87
 msgid "OCR Technology"
 msgstr "OCR-Technologie"
 
-#: templates/land/index.html:88
+#: land/templates/land/index.html:88
 msgid "It extracts text from your scanned documents to make most of them"
 msgstr "Es extrahiert Text aus Ihren gescannten Dokumenten."
 
-#: templates/land/index.html:96
+#: land/templates/land/index.html:96
 msgid "Adds Value to Your Scans"
 msgstr "Verwandelt Scans in wertvolle Informationsquellen."
 
-#: templates/land/index.html:97
+#: land/templates/land/index.html:97
 msgid ""
 " Scanned documents are more than just images. You can copy text\n"
 "                  from former paper documents."
@@ -99,11 +99,11 @@ msgstr ""
 "Gescannte Dokumente sind mehr als nur Bilder.Sie können Text aus gescannte "
 "Dokumenten kopieren."
 
-#: templates/land/index.html:113
+#: land/templates/land/index.html:113
 msgid "Open Source"
 msgstr "Open Source"
 
-#: templates/land/index.html:114
+#: land/templates/land/index.html:114
 msgid ""
 "Open source adds an additional layer of trust. Any security auditor, any "
 "software developer can see it, add value to it or comment on it."
@@ -112,11 +112,11 @@ msgstr ""
 "Sicherheitsexpert,  jeder Softwareentwickler kann es sehen, testen oder "
 "verbessern."
 
-#: templates/land/index.html:122
+#: land/templates/land/index.html:122
 msgid "Responsive Design"
 msgstr "Responsive Design"
 
-#: templates/land/index.html:124
+#: land/templates/land/index.html:124
 msgid ""
 "\n"
 "                  Access documents from any computer device: mobile phone, "
@@ -127,19 +127,19 @@ msgstr ""
 "Greifen Sie von jedem Computergerät aus auf Ihre Dokumente zu: Mobiltelefon, "
 "Tablet, Laptop oder Desktop-Computer."
 
-#: templates/land/index.html:135
+#: land/templates/land/index.html:135
 msgid "Full Text Search"
 msgstr "Volltext Suche"
 
-#: templates/land/index.html:136
+#: land/templates/land/index.html:136
 msgid "Find any document by typing just a few keywords. "
 msgstr "Finden Sie Ihre Dokumente nur mit wenigen Tasten Tippen."
 
-#: templates/land/index.html:158
+#: land/templates/land/index.html:158
 msgid "See Papermerge Demo Video"
 msgstr ""
 
-#: templates/land/index.html:164
+#: land/templates/land/index.html:164
 msgid ""
 "\n"
 "              It was born out of necessity to organize paper documents. It "
@@ -148,27 +148,27 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/land/index.html:188
+#: land/templates/land/index.html:188
 #, fuzzy
 #| msgid "Features"
 msgid "Even More Features"
 msgstr "Was es hat"
 
-#: templates/land/index.html:199
+#: land/templates/land/index.html:199
 msgid "Cloud/S3 Storage"
 msgstr ""
 
-#: templates/land/index.html:200
+#: land/templates/land/index.html:200
 msgid ""
 "Cloud native from the start. You can choose/cofigure it to store\n"
 "              all documents in S3 storage."
 msgstr ""
 
-#: templates/land/index.html:211
+#: land/templates/land/index.html:211
 msgid "Multi User"
 msgstr ""
 
-#: templates/land/index.html:212
+#: land/templates/land/index.html:212
 msgid ""
 "\n"
 "                Papermerge DMS is a multi user system. You can manage rights "
@@ -176,31 +176,31 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/land/index.html:224
+#: land/templates/land/index.html:224
 msgid "Highly Scalable"
 msgstr ""
 
-#: templates/land/index.html:225
+#: land/templates/land/index.html:225
 msgid ""
 "It does not matter how many documents you want to OCR, store and index. "
 "Papermerge is highly scalable."
 msgstr ""
 
-#: templates/land/index.html:235
+#: land/templates/land/index.html:235
 msgid "REST API"
 msgstr ""
 
-#: templates/land/index.html:236
+#: land/templates/land/index.html:236
 msgid ""
 "Want to import documents from SFTP account? Or maybe import all your EMail "
 "attachments? REST API is always there to assist you."
 msgstr ""
 
-#: templates/land/index.html:246
+#: land/templates/land/index.html:246
 msgid "Receipts are Welcome"
 msgstr ""
 
-#: templates/land/index.html:247
+#: land/templates/land/index.html:247
 msgid ""
 "\n"
 "                It can handle long paper receitps as well as standard A4 "
@@ -208,11 +208,11 @@ msgid ""
 "                "
 msgstr ""
 
-#: templates/land/index.html:260
+#: land/templates/land/index.html:260
 msgid "Scanners Best Friend"
 msgstr ""
 
-#: templates/land/index.html:262
+#: land/templates/land/index.html:262
 msgid ""
 "\n"
 "                  It is a natural addition to any scanner. It supports most "
@@ -220,7 +220,7 @@ msgid ""
 "                "
 msgstr ""
 
-#: templates/land/index.html:284
+#: land/templates/land/index.html:284
 msgid ""
 "\n"
 "              <span class=\"theme-color\">Extract</span>, index and <span "
@@ -230,15 +230,47 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/land/index.html:288
+#: land/templates/land/index.html:288
 msgid "More about our mission"
 msgstr ""
 
-#: templates/land/layout.html:3
+#: land/templates/land/index.html:307
+msgid "You want to use Papermerge DMS within your organization?"
+msgstr ""
+
+#: land/templates/land/index.html:310
+msgid ""
+"\n"
+"         Sure, we are here to help you! We are a group of proffesionals "
+"specialized in document management. We can consult, assist, install and "
+"support you with your digital transition. Documents are very important asset "
+"and we know how to handle them with care.\n"
+"        "
+msgstr ""
+
+#: land/templates/land/index.html:317
+msgid "let's work together"
+msgstr ""
+
+#: land/templates/land/index.html:318
+msgid "Contact Us"
+msgstr ""
+
+#: land/templates/land/index.html:319
+msgid ""
+" We will advice you for the most optimal approach for your digital "
+"transition."
+msgstr ""
+
+#: land/templates/land/index.html:340
+msgid "Send message"
+msgstr ""
+
+#: land/templates/land/layout.html:3
 msgid "en"
 msgstr "de"
 
-#: templates/land/layout.html:7
+#: land/templates/land/layout.html:7
 msgid ""
 " OCR documents document management system dms open source scans scanned pdf "
 "archives"
@@ -246,7 +278,7 @@ msgstr ""
 "OCR Dokumente Dokument Dokumentenmanagement Dokumentenverwaltungssystem DMS "
 "open source scans gescannt pdf"
 
-#: templates/land/layout.html:8
+#: land/templates/land/layout.html:8
 msgid ""
 "Papermerge is an open source document management system (DMS) primarily "
 "designed for archiving and retrieving your digital documents. Instead of "
@@ -260,42 +292,42 @@ msgstr ""
 "diese schnell scannen und Ihren Scanner so konfigurieren, dass sie direkt in "
 "Papermerge DMS hochgeladen werden."
 
-#: templates/land/layout.html:9
+#: land/templates/land/layout.html:9
 msgid "papermerge.com"
 msgstr "papermerge.de"
 
-#: templates/land/layout.html:71 templates/land/layout.html:113
+#: land/templates/land/layout.html:71 land/templates/land/layout.html:113
 msgid "Home"
 msgstr "Hauptseite"
 
-#: templates/land/layout.html:72
+#: land/templates/land/layout.html:72
 msgid "Features"
 msgstr "Was es hat"
 
-#: templates/land/layout.html:74
+#: land/templates/land/layout.html:74
 msgid "Resources"
 msgstr "Ressourcen"
 
-#: templates/land/layout.html:76
+#: land/templates/land/layout.html:76
 msgid "Blog"
 msgstr "Blog"
 
-#: templates/land/layout.html:77
+#: land/templates/land/layout.html:77
 msgid "Source Code"
 msgstr "Quellcode"
 
-#: templates/land/layout.html:78
+#: land/templates/land/layout.html:78
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: templates/land/layout.html:81 templates/land/layout.html:114
+#: land/templates/land/layout.html:81 land/templates/land/layout.html:114
 msgid "Mission"
 msgstr "Mission"
 
-#: templates/land/layout.html:82
+#: land/templates/land/layout.html:82
 msgid "Consulting"
 msgstr "Beratung"
 
-#: templates/land/layout.html:111
+#: land/templates/land/layout.html:111
 msgid "Navigation"
 msgstr "Navigation"
