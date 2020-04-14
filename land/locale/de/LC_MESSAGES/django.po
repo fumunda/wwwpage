@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 16:42+0200\n"
+"POT-Creation-Date: 2020-04-14 07:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -48,8 +48,8 @@ msgid ""
 "Paper based documents have an issue. They are not there at the moment you "
 "need them!"
 msgstr ""
-"Papierbasierte Dokumente haben ein Problem. Sie sind nicht da, wenn Sie "
-"sie brauchen!"
+"Papierbasierte Dokumente haben ein Problem. Sie sind nicht da, wenn Sie sie "
+"brauchen!"
 
 #: templates/land/index.html:46
 msgid ""
@@ -61,13 +61,14 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Anstatt Dokumente, Quittungen, Briefe in Schränken oder am Schreibtisch aufzubewahren,"
-" können Sie <span class=\"theme-color\">scannen</span> und schenken Sie sie an eine perfekt gestaltete Software zum Speichern, "
-" OCR und Indizieren ihrer digitalen Version."
+"Anstatt Dokumente, Quittungen, Briefe in Schränken oder am Schreibtisch "
+"aufzubewahren, können Sie <span class=\"theme-color\">scannen</span> und "
+"schenken Sie sie an eine perfekt gestaltete Software zum Speichern,  OCR und "
+"Indizieren ihrer digitalen Version."
 
 #: templates/land/index.html:67
-msgid "It has exactly what you need"
-msgstr "Es hat genau das, was Sie brauchen"
+msgid "It has exactly what you need."
+msgstr "Es hat genau das, was Sie brauchen."
 
 #: templates/land/index.html:78
 msgid "Folder Structure"
@@ -76,6 +77,61 @@ msgstr "Ordnerstruktur"
 #: templates/land/index.html:79
 msgid "So that you can organize files any way you like."
 msgstr "Damit Sie Dateien nach Belieben organisieren können."
+
+#: templates/land/index.html:87
+msgid "OCR Technology"
+msgstr "OCR-Technologie"
+
+#: templates/land/index.html:88
+msgid "It extracts text from your scanned documents to make most of them"
+msgstr "Es extrahiert Text aus Ihren gescannten Dokumenten."
+
+#: templates/land/index.html:96
+msgid "Adds Value to Your Scans"
+msgstr "Verwandelt Scans in wertvolle Informationsquellen."
+
+#: templates/land/index.html:97
+msgid ""
+" Scanned documents are more than just images. You can copy text\n"
+"                  from former paper documents."
+msgstr ""
+"Gescannte Dokumente sind mehr als nur Bilder."
+"Sie können Text aus gescannte Dokumenten kopieren."
+
+#: templates/land/index.html:113
+msgid "Open Source"
+msgstr "Open Source"
+
+#: templates/land/index.html:114
+msgid ""
+"Open source adds an additional layer of trust. Any security auditor, any "
+"software developer can see it, add value to it or comment on it."
+msgstr ""
+"Open Source fügt eine zusätzliche Vertrauensschicht hinzu. Jeder Sicherheitsexpert, "
+" jeder Softwareentwickler kann es sehen, testen oder verbessern."
+
+#: templates/land/index.html:122
+msgid "Responsive Design"
+msgstr "Responsive Design"
+
+#: templates/land/index.html:124
+msgid ""
+"\n"
+"                  Access documents from any computer device: mobile phone, "
+"tablet, laptop or desktop computer.\n"
+"                "
+msgstr ""
+"\n"
+"Greifen Sie von jedem Computergerät aus auf Ihre Dokumente zu: Mobiltelefon, "
+"Tablet, Laptop oder Desktop-Computer."
+
+#: templates/land/index.html:135
+msgid "Full Text Search"
+msgstr "Volltext Suche"
+
+#: templates/land/index.html:136
+msgid "Find any document by typing just a few keywords. "
+msgstr "Finden Sie Ihre Dokumente nur mit wenigen Tasten Tippen."
 
 #: templates/land/layout.html:3
 msgid "en"
