@@ -243,8 +243,11 @@
                 <span class="ti-receipt"></span>
               </div>
             <div class="feature-info">
-              <h4 class="theme-color">Receipts are Welcome</h4>
-              <p>It can handle long paper receitps as well as standard A4 paper receitps.</p>
+              <h4 class="theme-color">{% trans "Receipts are Welcome" %}</h4>
+              <p>{% blocktrans %}
+                It can handle long paper receitps as well as standard A4 paper receitps.
+                {% endblocktrans %}
+              </p>
             </div>
           </div>
        </div>
@@ -254,8 +257,12 @@
                 <span class="ti-printer"></span>
               </div>
             <div class="feature-info">
-                <h4 class="theme-color">Scanners Best Friend</h4>
-                <p>It is a natural addition to any scanner. It supports most common scanner output formats - PDF, JPEG, PNG or TIFF</p>
+                <h4 class="theme-color">{% trans "Scanners Best Friend" %}</h4>
+                <p>
+                {% blocktrans %}
+                  It is a natural addition to any scanner. It supports most common scanner output formats - PDF, JPEG, PNG or TIFF
+                {% endblocktrans %}
+                </p>
               </div>
           </div>
        </div>
@@ -273,8 +280,12 @@
      <div class="row justify-content-center">
         <div class="col-md-9">
          <div class="text-center pt-80 pb-80">
-             <h3 class="text-white"><span class="theme-color">Extract</span>, index and <span class="theme-color">organize</span> all information stored in paper based documents. <span class="theme-color">Merge</span> paper based documents with digital documents into one augmented digital store.</h3>
-             <a class="button mt-30" href="#">More about our mission</a>
+             <h3 class="text-white">
+              {% blocktrans %}
+              <span class="theme-color">Extract</span>, index and <span class="theme-color">organize</span> all information stored in paper based documents. <span class="theme-color">Merge</span> paper based documents with digital documents into one augmented digital store.
+              {% endblocktrans %}
+            </h3>
+             <a class="button mt-30" href="#">{% trans "More about our mission" %}</a>
         </div>
        </div>
      </div>
@@ -293,14 +304,18 @@
      <div class="row">
        <div class="col-lg-6 sm-mb-30">
          <blockquote class="blockquote quote pl-0">
-           You want to use Papermerge DMS within your organization?
+           {% trans "You want to use Papermerge DMS within your organization?" %}
          </blockquote>
-         <p>Sure, we are here to help you! We are a group of proffesionals specialized in document management. We can consult, assist, install and support you with your digital transition. Documents are very important asset and we know how to handle them with care.</p>
+         <p>
+          {% blocktrans %}
+         Sure, we are here to help you! We are a group of proffesionals specialized in document management. We can consult, assist, install and support you with your digital transition. Documents are very important asset and we know how to handle them with care.
+        {% endblocktrans %}
+       </p>
        </div>
        <div class="col-lg-6">
          <div class="section-title">
-           <h6>let's work together</h6>
-           <h2 class="title-effect">Contact Us</h2>
+           <h6>{% trans "let's work together" %}</h6>
+           <h2 class="title-effect">{% trans "Contact Us" %}</h2>
            <p class="mb-50">We will advice you for the most optimal approach for your digital transition.</p>
          </div>
          <div id="formmessage">Success/Error Message Goes Here</div>
