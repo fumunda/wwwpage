@@ -48,6 +48,8 @@ msgid ""
 "Paper based documents have an issue. They are not there at the moment you "
 "need them!"
 msgstr ""
+"Papierbasierte Dokumente haben ein Problem. Sie sind nicht da, wenn Sie "
+"sie brauchen!"
 
 #: templates/land/index.html:46
 msgid ""
@@ -58,18 +60,22 @@ msgid ""
 "color\">store, OCR and index</span> their digital version.\n"
 "          "
 msgstr ""
+"\n"
+"Anstatt Dokumente, Quittungen, Briefe in Schränken oder am Schreibtisch aufzubewahren,"
+" können Sie <span class=\"theme-color\">scannen</span> und schenken Sie sie an eine perfekt gestaltete Software zum Speichern, "
+" OCR und Indizieren ihrer digitalen Version."
 
 #: templates/land/index.html:67
-msgid "It has exactly what you need."
-msgstr ""
+msgid "It has exactly what you need"
+msgstr "Es hat genau das, was Sie brauchen"
 
 #: templates/land/index.html:78
 msgid "Folder Structure"
-msgstr ""
+msgstr "Ordnerstruktur"
 
 #: templates/land/index.html:79
 msgid "So that you can organize files any way you like."
-msgstr ""
+msgstr "Damit Sie Dateien nach Belieben organisieren können."
 
 #: templates/land/layout.html:3
 msgid "en"
