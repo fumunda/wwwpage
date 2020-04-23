@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 16:40+0200\n"
+"POT-Creation-Date: 2020-04-23 17:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -396,18 +396,28 @@ msgstr "Cookie-Richtlinie"
 msgid "Imprint"
 msgstr "Impressum"
 
+#: templates/land/layout.html:133
+msgid "Address"
+msgstr "Adresse"
+
 #: templates/land/layout.html:139
 msgid "Subscribe to Our Newsletter"
-msgstr "Abonniere Sie unseren Newsletter"
+msgstr "Abonnieren Sie unseren Newsletter"
 
 #: templates/land/layout.html:140
 msgid "Sign Up to our Newsletter to get the latest news and offers."
 msgstr ""
+"Melden Sie sich für unseren Newsletter an, um die neuesten Nachrichten und "
+"Angebote zu erhalten."
+
+#: templates/land/layout.html:146
+msgid "Email address"
+msgstr "E-Mail-Addresse"
 
 #: templates/land/layout.html:156
 msgid "Get notified"
-msgstr ""
+msgstr "Benachrichtigt werden"
 
 #: templates/land/layout.html:166
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "Alle Rechte vorbehalten"
