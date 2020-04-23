@@ -256,7 +256,7 @@ msgstr "Mehr über unsere Mission"
 
 #: land/templates/land/index.html:307
 msgid "You want to use Papermerge DMS within your organization?"
-msgstr ""
+msgstr "Sie möchten Papermerge DMS in Ihrer Organisation verwenden?"
 
 #: land/templates/land/index.html:310
 msgid ""
@@ -267,7 +267,9 @@ msgid ""
 "and we know how to handle them with care.\n"
 "        "
 msgstr ""
-
+"\n"
+"Wir sind für Sie da! Wir sind Dokumentenmanagement experten. Wir können Sie bei Ihrem digitalen Übergang beraten, unterstützen, installieren und unterstützen. Dokumente sind ein sehr wichtiges Gut und wir wissen, wie wir mit ihnen vorsichtig umgehen müssen."
+"  "
 #: land/templates/land/index.html:317
 msgid "let's work together"
 msgstr ""
