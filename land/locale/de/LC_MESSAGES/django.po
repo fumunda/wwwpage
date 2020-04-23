@@ -245,10 +245,14 @@ msgid ""
 "with digital documents into one augmented digital store.\n"
 "              "
 msgstr ""
-
+"\n"
+"<span class=\"theme-color\">Extrahieren</span>, indexieren and <span "
+"class=\"theme-color\">organisieren Sie</span> die ganze Information Ihres Geschäftes. "
+"<span class=\"theme-color\">Digitalisieren Sie</span>  alle Ihre papierbasierten Dokumente.\n"
+"              "
 #: land/templates/land/index.html:288
 msgid "More about our mission"
-msgstr ""
+msgstr "Mehr über unsere Mission"
 
 #: land/templates/land/index.html:307
 msgid "You want to use Papermerge DMS within your organization?"
