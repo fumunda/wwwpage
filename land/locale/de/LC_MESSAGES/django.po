@@ -219,10 +219,12 @@ msgid ""
 "paper receitps.\n"
 "                "
 msgstr ""
+"\n"
+"Es kann sowohl lange Papierbelege als auch Standard-Papierbelege verarbeiten."
 
 #: land/templates/land/index.html:260
 msgid "Scanners Best Friend"
-msgstr ""
+msgstr "Scanner Bester Freund"
 
 #: land/templates/land/index.html:262
 msgid ""
@@ -231,6 +233,8 @@ msgid ""
 "common scanner output formats - PDF, JPEG, PNG or TIFF\n"
 "                "
 msgstr ""
+"\n"
+"Es ist eine natürliche Ergänzung zu jedem Scanner. Es unterstützt die meisten Scannerformate - PDF, JPEG, PNG oder TIFF"
 
 #: land/templates/land/index.html:284
 msgid ""
