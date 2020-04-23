@@ -112,23 +112,23 @@
         <ul>
           <li><a href="{% url 'land:index' %}">{% trans 'Home' %}</a></li>
           <li><a href="{% url 'land:index' %}#mission">{% trans 'Mission' %}</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">{% trans 'Services' %}</a></li>
+          <li><a href="#">{% trans 'Contact Us' %}</a></li>
         </ul>
       </div>
     </div>
     <div class="col-lg-2 col-sm-6 sm-mb-30">
       <div class="footer-useful-link footer-hedding">
-        <h6 class="text-white mb-30 mt-10 text-uppercase">Useful Link</h6>
+        <h6 class="text-white mb-30 mt-10 text-uppercase">{% trans 'Useful Links' %}</h6>
         <ul>
-          <li><a href="{% url 'land:privacy' %}">Privacy Policy</a></li>
-          <li><a href="{% url 'land:cookies' %}">Cookie Policy</a></li>
-          <li><a href="{% url 'land:imprint' %}">Imprint</a></li>
+          <li><a href="{% url 'land:privacy' %}">{% trans "Privacy Policy" %}</a></li>
+          <li><a href="{% url 'land:cookies' %}">{% trans "Cookie Policy" %}</a></li>
+          <li><a href="{% url 'land:imprint' %}">{% trans "Imprint" %}</a></li>
         </ul>
       </div>
     </div>
     <div class="col-lg-4 col-sm-6 xs-mb-30">
-    <h6 class="text-white mb-30 mt-10 text-uppercase">Contact Us</h6>
+    <h6 class="text-white mb-30 mt-10 text-uppercase">{% trans "Contact Us" %}</h6>
     <ul class="addresss-info">
         <li><i class="fa fa-map-marker"></i> <p>Address: Löwenberger Str 4, 10315 Berlin, Germany</p> </li>
         <li><i class="fa fa-phone"></i> <a href="tel:+493091901281"> <span>+(49)30-91901281 </span> </a> </li>
@@ -136,8 +136,8 @@
       </ul>
     </div>
     <div class="col-lg-4 col-sm-6">
-      <h6 class="text-white mb-30 mt-10 text-uppercase">Subscribe to Our Newsletter</h6>
-        <p class="mb-30">Sign Up to our Newsletter to get the latest news and offers.</p>
+      <h6 class="text-white mb-30 mt-10 text-uppercase">{% trans "Subscribe to Our Newsletter" %}</h6>
+        <p class="mb-30">{% trans "Sign Up to our Newsletter to get the latest news and offers." %}</p>
          <div class="footer-Newsletter">
           <div id="mc_embed_signup_scroll">
             <form action="php/mailchimp-action.php" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
@@ -153,7 +153,7 @@
                     <input type="text" name="b_b7ef45306f8b17781aa5ae58a_6b09f39a55" tabindex="-1" value="">
                 </div>
                 <div class="clear">
-                  <button type="submit" name="submitbtn" id="mc-embedded-subscribe" class="button button-border mt-20 form-button">  Get notified </button>
+                  <button type="submit" name="submitbtn" id="mc-embedded-subscribe" class="button button-border mt-20 form-button"> {% trans "Get notified" %}</button>
                 </div>
               </form>
             </div>
@@ -163,7 +163,7 @@
       <div class="footer-widget mt-20">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-           <p class="mt-15"> &copy;Copyright <span id="copyright"> 2020<a href="#"> Papermerge DMS</a> All Rights Reserved </p>
+           <p class="mt-15"> &copy;Copyright <span id="copyright"> 2020<a href="#"> Papermerge DMS</a>{% trans "All Rights Reserved" %} </p>
           </div>
           <div class="col-lg-6 col-md-6 text-left text-md-right">
             <div class="social-icons color-hover mt-10">

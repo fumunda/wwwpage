@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 16:27+0200\n"
+"POT-Creation-Date: 2020-04-23 16:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -279,7 +279,8 @@ msgstr ""
 msgid "let's work together"
 msgstr "Lass uns zusammen arbeiten"
 
-#: templates/land/index.html:318
+#: templates/land/index.html:318 templates/land/layout.html:116
+#: templates/land/layout.html:131
 msgid "Contact Us"
 msgstr "Schreiben Sie uns"
 
@@ -374,3 +375,39 @@ msgstr "Beratung"
 #: templates/land/layout.html:111
 msgid "Navigation"
 msgstr "Navigation"
+
+#: templates/land/layout.html:115
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: templates/land/layout.html:122
+msgid "Useful Links"
+msgstr "Nützliche Links"
+
+#: templates/land/layout.html:124
+msgid "Privacy Policy"
+msgstr "Datenschutz"
+
+#: templates/land/layout.html:125
+msgid "Cookie Policy"
+msgstr "Cookie-Richtlinie"
+
+#: templates/land/layout.html:126
+msgid "Imprint"
+msgstr "Impressum"
+
+#: templates/land/layout.html:139
+msgid "Subscribe to Our Newsletter"
+msgstr "Abonniere Sie unseren Newsletter"
+
+#: templates/land/layout.html:140
+msgid "Sign Up to our Newsletter to get the latest news and offers."
+msgstr ""
+
+#: templates/land/layout.html:156
+msgid "Get notified"
+msgstr ""
+
+#: templates/land/layout.html:166
+msgid "All Rights Reserved"
+msgstr ""
