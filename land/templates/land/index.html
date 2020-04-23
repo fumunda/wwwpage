@@ -322,16 +322,16 @@
            <form id="contactform" role="form" method="post" action="php/contact-form.php">
              <div class="contact-form clearfix">
                <div class="section-field">
-                 <input id="name" type="text" placeholder="Name*" class="form-control" name="name">
+                 <input id="name" type="text" placeholder="{% trans 'Name' %}*" class="form-control" name="name">
                </div>
                <div class="section-field">
-                 <input type="email" placeholder="Email*" class="form-control" name="email">
+                 <input type="email" placeholder="{% trans 'Email' %}*" class="form-control" name="email">
                </div>
                <div class="section-field">
-                 <input type="text" placeholder="Phone*" class="form-control" name="phone">
+                 <input type="text" placeholder="{% trans 'Phone' %}*" class="form-control" name="phone">
                </div>
                <div class="section-field textarea">
-                 <textarea class="input-message form-control" placeholder="Comment*" rows="7" name="message"></textarea>
+                 <textarea class="input-message form-control" placeholder="{% trans 'Comment' %}*" rows="7" name="message"></textarea>
                </div>
                <!-- Google reCaptch-->
              <!-- <div class="g-recaptcha section-field clearfix" data-sitekey="[Add your site key]"></div> -->
