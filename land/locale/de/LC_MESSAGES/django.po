@@ -272,21 +272,23 @@ msgstr ""
 "  "
 #: land/templates/land/index.html:317
 msgid "let's work together"
-msgstr ""
+msgstr "Lass uns zusammen arbeiten"
 
 #: land/templates/land/index.html:318
 msgid "Contact Us"
-msgstr ""
+msgstr "Schreiben Sie uns"
 
 #: land/templates/land/index.html:319
 msgid ""
 " We will advice you for the most optimal approach for your digital "
 "transition."
 msgstr ""
+"Wir beraten Sie für den optimalen Ansatz für Ihre digitale"
+"Wende."
 
 #: land/templates/land/index.html:340
 msgid "Send message"
-msgstr ""
+msgstr "Nachricht senden"
 
 #: land/templates/land/layout.html:3
 msgid "en"
