@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 11:17+0200\n"
+"POT-Creation-Date: 2020-04-24 11:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -17,6 +17,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/land/cookies.html:14
+msgid "cookies"
+msgstr "cookies"
+
+msgid "Privacy Policy For Papermerge"
+msgstr "Datenschutzerklärung für Papermerge Website"
+
+msgid "Cookies Policy For Papermerge Website"
+msgstr "Cookies-Richtlinie für Papermerge Website"
+
+#: templates/land/cookies.html:18 templates/land/layout.html:71
+#: templates/land/layout.html:113 templates/land/privacy.html:18
+msgid "Home"
+msgstr "Hauptseite"
+
+msgid "Cookies Policy"
+msgstr "Cookies-Richtlinie"
+
+#: templates/land/cookies.html:36
+msgid ""
+"As is common practice with almost all professional websites this site uses "
+"cookies, which are tiny files that are downloaded to your computer, to "
+"improve your experience. This page describes what information they gather, "
+"how we use it and why we sometimes need to store these cookies. We will also "
+"share how you can prevent these cookies from being stored however this may "
+"downgrade or 'break' certain elements of the sites functionality."
+msgstr ""
+"Wie es bei fast allen professionellen Websites üblich ist, verwendet diese "
+"Website Cookies, winzige Dateien, die auf Ihren Computer heruntergeladen "
+"werden, um Ihre Erfahrung zu verbessern. Diese Seite beschreibt, welche "
+"Informationen sie sammeln, wie wir sie verwenden und warum wir diese Cookies "
+"manchmal speichern müssen. Wir werden Ihnen auch mitteilen, wie Sie "
+"verhindern können, dass diese Cookies gespeichert werden. Dies kann jedoch "
+"dazu führen, dass bestimmte Elemente der Funktionalität der Website "
+"herabgestuft oder 'beschädigt' werden."
+
+#: templates/land/cookies.html:47
+msgid "https://en.wikipedia.org/wiki/HTTP_cookie"
+msgstr "https://de.wikipedia.org/wiki/HTTP-Cookie"
+
+#: templates/land/cookies.html:48
+msgid "Wikipedia article on HTTP Cookies"
+msgstr "Wikipedia-Artikel zu HTTP-Cookies"
+
+#: templates/land/cookies.html:49
+#, python-format
+msgid ""
+"For more general information on cookies see the <a href="
+"\"%(wiki_cookies_url)s\">%(wiki_article)s</a>"
+msgstr ""
+"Weitere allgemeine Informationen zu Cookies finden Sie auf "
+"<a href="
+"\"%(wiki_cookies_url)s\">%(wiki_article)s</a>"
 
 #: templates/land/index.html:16
 msgid "Open Source Document Management System"
@@ -340,11 +394,6 @@ msgstr ""
 msgid "papermerge.com"
 msgstr "papermerge.de"
 
-#: templates/land/layout.html:71 templates/land/layout.html:113
-#: templates/land/privacy.html:18
-msgid "Home"
-msgstr "Hauptseite"
-
 #: templates/land/layout.html:72
 msgid "Features"
 msgstr "Was es hat"
@@ -424,10 +473,6 @@ msgstr "Benachrichtigt werden"
 #: templates/land/layout.html:166
 msgid "All Rights Reserved"
 msgstr "Alle Rechte vorbehalten"
-
-#: templates/land/privacy.html:15
-msgid "Privacy Policy For Papermerge"
-msgstr "Datenschutzerklärung für Papermerge"
 
 #: templates/land/privacy.html:37
 #, python-format
@@ -581,6 +626,7 @@ msgstr ""
 "Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
 "unserer bevorzugten Kontaktmethoden kontaktieren:"
 
+#: templates/land/privacy.html:107
 msgid "info@papermerge.com"
 msgstr "info@papermerge.de"
 
