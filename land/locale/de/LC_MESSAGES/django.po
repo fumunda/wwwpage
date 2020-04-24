@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 17:07+0200\n"
+"POT-Creation-Date: 2020-04-24 07:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -336,11 +336,12 @@ msgstr ""
 "diese schnell scannen und Ihren Scanner so konfigurieren, dass sie direkt in "
 "Papermerge DMS hochgeladen werden."
 
-#: templates/land/layout.html:9
+#: templates/land/layout.html:9 templates/land/privacy.html:36
 msgid "papermerge.com"
 msgstr "papermerge.de"
 
 #: templates/land/layout.html:71 templates/land/layout.html:113
+#: templates/land/privacy.html:18
 msgid "Home"
 msgstr "Hauptseite"
 
@@ -384,7 +385,8 @@ msgstr "Dienstleistungen"
 msgid "Useful Links"
 msgstr "Nützliche Links"
 
-#: templates/land/layout.html:124
+#: templates/land/layout.html:124 templates/land/privacy.html:14
+#: templates/land/privacy.html:19 templates/land/privacy.html:34
 msgid "Privacy Policy"
 msgstr "Datenschutz"
 
@@ -421,3 +423,24 @@ msgstr "Benachrichtigt werden"
 #: templates/land/layout.html:166
 msgid "All Rights Reserved"
 msgstr "Alle Rechte vorbehalten"
+
+#: templates/land/privacy.html:15
+msgid "Privacy Policy For Papermerge"
+msgstr "Datenschutzerklärung für Papermerge"
+
+#: templates/land/privacy.html:37
+#, python-format
+msgid ""
+"At Papermerge Website, accessible from <a href=\"https://%(service_url)s"
+"\">https://%(service_url)s</a> , one of our main priorities is the privacy "
+"of our visitors. This Privacy Policy document contains types of information "
+"that is collected and recorded by Papermerge and how we use it.</p> If you "
+"have additional questions or require more information about our Privacy "
+"Policy, do not hesitate to contact us."
+msgstr ""
+"Bei Papermerge Website, das über <a href=\"https://%(service_url)s\">https://"
+"%(service_url)s</a> erreichbar ist, ist die Privatsphäre unserer Besucher "
+"Hauptpriorität. In dieser Datenschutzerklärung sind die allgemeinen "
+"Datenschutzverfahren von Papermerge Website beschrieben, die im Hinblick auf "
+"die Verarbeitung, einschließlich Erhebung, Verwendung und Weitergabe von "
+"personenbezogene Daten von Nutzern gelten."
