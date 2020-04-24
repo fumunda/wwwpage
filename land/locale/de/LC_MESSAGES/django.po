@@ -525,7 +525,7 @@ msgstr ""
 " Websites sehen. Beachten Sie, dass Papermerge Website keinen Zugriff auf oder keine Kontrolle über diese Cookies" " hat, die von Werbekunden Dritter verwendet werden."
 #: templates/land/privacy.html:84
 msgid "Your Rights"
-msgstr ""
+msgstr "Ihre Rechte"
 
 #: templates/land/privacy.html:87
 msgid ""
@@ -539,6 +539,16 @@ msgid ""
 "easily be transferred to you or another data controller you appoint (this is "
 "known as “data portability”)."
 msgstr ""
+"Sie haben Anspruch auf Offenlegung Ihrer personenbezogenen Daten, "
+"die wir speichern oder verarbeiten. Sie haben auch Anspruch auf "
+"Berichtigung falscher personenbezogener Daten und auf Sperrung oder Löschung "
+"Ihrer personenbezogenen Daten. Unter bestimmten Umständen haben Sie das "
+"Recht, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen. "
+"Soweit die EU-Verordnung 2016/679 (DSGVO) in Kraft getreten ist, können Sie "
+"darum bitten, Ihre personenbezogenen Daten in einem strukturierten und "
+"allgemein verwendeten Format zu erhalten dass es leicht an Sie oder einen "
+"anderen von Ihnen ernannten Datencontroller übertragen werden kann (dies wird "
+"als 'Datenportabilität' bezeichnet)."
 
 #: templates/land/privacy.html:92
 msgid ""
@@ -546,17 +556,23 @@ msgid ""
 "we encourage you to contact us. Please address any requests in such matters "
 "to info@papermerge.com or write to us at the address stated above."
 msgstr ""
+"Wenn Sie Beschwerden bezüglich unserer Verarbeitung Ihrer persönlichen Daten "
+"haben, empfehlen wir Ihnen, uns zu kontaktieren. Bitte richten Sie alle "
+"diesbezüglichen Anfragen an info@papermerge.de oder schreiben Sie uns an die "
+"oben angegebene Adresse."
 
 #: templates/land/privacy.html:98
 msgid "More Information"
-msgstr ""
+msgstr "Mehr Informationen"
 
 #: templates/land/privacy.html:100
 msgid "Hopefully that has clarified things for you."
-msgstr ""
+msgstr "Hoffentlich hat das alles für Sie geklärt"
 
 #: templates/land/privacy.html:102
 msgid ""
 "However if you are still looking for more information then you can contact "
 "us through one of our preferred contact methods:"
 msgstr ""
+"Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
+"unserer bevorzugten Kontaktmethoden kontaktieren:"
