@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 12:03+0200\n"
+"POT-Creation-Date: 2020-04-24 12:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: templates/land/cookies.html:66
 msgid "How We Use Cookies"
-msgstr ""
+msgstr "Wie wir Cookies verwenden"
 
 #: templates/land/cookies.html:69
 msgid ""
@@ -82,10 +82,15 @@ msgid ""
 "site. It is recommended that you leave on all cookies if you are not sure "
 "whether you need them or not."
 msgstr ""
+"Wir verwenden Cookies aus verschiedenen Gründen, die unten aufgeführt sind. "
+"Leider gibt es in den meisten Fällen keine branchenüblichen Optionen zum "
+"Deaktivieren von Cookies, ohne die Funktionen und Merkmale, die sie dieser "
+"Website hinzufügen, vollständig zu deaktivieren. Es wird empfohlen, alle "
+"Cookies zu belassen, wenn Sie nicht sicher sind, ob Sie sie benötigen oder nicht."
 
 #: templates/land/cookies.html:74
 msgid "Disabling Cookies"
-msgstr ""
+msgstr "Cookies Deaktivieren"
 
 #: templates/land/cookies.html:76
 msgid ""
@@ -97,6 +102,14 @@ msgid ""
 "you can enable strict mode privacy in your browser and fully enjoy our "
 "services."
 msgstr ""
+"Sie können das Setzen von Cookies verhindern, indem Sie die Einstellungen in "
+"Ihrem Browser anpassen (Informationen dazu finden Sie in der Hilfe Ihres "
+"Browsers). Beachten Sie, dass Sie durch Deaktivieren aller Cookies einige "
+"unserer Dienste nicht nutzen können, z. B. Kontaktformular, Anmeldung, "
+"Registrierung. Das Deaktivieren von Cookies von Drittanbietern hat jedoch "
+"keinerlei Auswirkungen auf die Nutzung dieser Website. Dies bedeutet, dass Sie "
+"den Datenschutz im strengen Modus in Ihrem Browser aktivieren und unsere "
+"Dienste in vollem Umfang nutzen können. "
 
 #: templates/land/cookies.html:87
 msgid "The Cookies We Set"
