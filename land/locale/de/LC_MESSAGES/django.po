@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 12:04+0200\n"
+"POT-Creation-Date: 2020-04-24 12:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -86,7 +86,8 @@ msgstr ""
 "Leider gibt es in den meisten Fällen keine branchenüblichen Optionen zum "
 "Deaktivieren von Cookies, ohne die Funktionen und Merkmale, die sie dieser "
 "Website hinzufügen, vollständig zu deaktivieren. Es wird empfohlen, alle "
-"Cookies zu belassen, wenn Sie nicht sicher sind, ob Sie sie benötigen oder nicht."
+"Cookies zu belassen, wenn Sie nicht sicher sind, ob Sie sie benötigen oder "
+"nicht."
 
 #: templates/land/cookies.html:74
 msgid "Disabling Cookies"
@@ -107,17 +108,17 @@ msgstr ""
 "Browsers). Beachten Sie, dass Sie durch Deaktivieren aller Cookies einige "
 "unserer Dienste nicht nutzen können, z. B. Kontaktformular, Anmeldung, "
 "Registrierung. Das Deaktivieren von Cookies von Drittanbietern hat jedoch "
-"keinerlei Auswirkungen auf die Nutzung dieser Website. Dies bedeutet, dass Sie "
-"den Datenschutz im strengen Modus in Ihrem Browser aktivieren und unsere "
+"keinerlei Auswirkungen auf die Nutzung dieser Website. Dies bedeutet, dass "
+"Sie den Datenschutz im strengen Modus in Ihrem Browser aktivieren und unsere "
 "Dienste in vollem Umfang nutzen können. "
 
 #: templates/land/cookies.html:87
 msgid "The Cookies We Set"
-msgstr ""
+msgstr "Die Cookies, Die Wir Setzen"
 
 #: templates/land/cookies.html:91
 msgid "Email newsletters related cookies"
-msgstr ""
+msgstr "E-Mail-Newsletter-Cookies"
 
 #: templates/land/cookies.html:92
 msgid ""
@@ -126,41 +127,38 @@ msgid ""
 "certain notifications which might only be valid to subscribed/unsubscribed "
 "users."
 msgstr ""
+"Diese Website bietet Newsletter- oder E-Mail-Abonnementdienste. Cookies "
+"können verwendet werden, um sich daran zu erinnern, ob Sie bereits "
+"registriert sind und ob bestimmte Benachrichtigungen angezeigt werden "
+"sollen, die möglicherweise nur für abonnierte / nicht abonnierte Benutzer "
+"gültig sind. "
 
 #: templates/land/cookies.html:95
-msgid "Orders processing related cookies"
-msgstr ""
+msgid "Forms related cookies"
+msgstr "Forms-Cookies"
 
 #: templates/land/cookies.html:96
-msgid ""
-"This site offers e-commerce or payment facilities and some cookies are "
-"essential to ensure that your order is remembered between pages so that we "
-"can process it properly."
-msgstr ""
-
-#: templates/land/cookies.html:99
-msgid "Forms related cookies"
-msgstr ""
-
-#: templates/land/cookies.html:100
 msgid ""
 "When you submit data to through a form such as those found on contact pages "
 "or comment forms cookies may be set to remember your user details for future "
 "correspondence."
 msgstr ""
+"Wenn Sie Daten über ein Formular wie das auf Kontaktseiten oder "
+"Kommentarformularen übermittelte senden, werden möglicherweise Cookies "
+"gesetzt, um Ihre Benutzerdaten für zukünftige Korrespondenz zu speichern. "
 
-#: templates/land/cookies.html:105
+#: templates/land/cookies.html:101
 msgid "Third Party Cookies"
 msgstr ""
 
-#: templates/land/cookies.html:107
+#: templates/land/cookies.html:103
 msgid ""
 "In some special cases we also use cookies provided by trusted third parties. "
 "The following section details which third party cookies you might encounter "
 "through this site."
 msgstr ""
 
-#: templates/land/cookies.html:108
+#: templates/land/cookies.html:104
 msgid ""
 "This site uses Google Analytics which is one of the most widespread and "
 "trusted analytics solution on the web for helping us to understand how you "
@@ -169,17 +167,17 @@ msgid ""
 "visit so we can continue to produce engaging content."
 msgstr ""
 
-#: templates/land/cookies.html:109
+#: templates/land/cookies.html:105
 msgid ""
 "For more information on Google Analytics cookies, see the official Google "
 "Analytics page."
 msgstr ""
 
-#: templates/land/cookies.html:111 templates/land/privacy.html:98
+#: templates/land/cookies.html:107 templates/land/privacy.html:98
 msgid "More Information"
 msgstr "Mehr Informationen"
 
-#: templates/land/cookies.html:113
+#: templates/land/cookies.html:109
 msgid ""
 "Hopefully that has clarified things for you and as was previously mentioned "
 "if there is something that you aren't sure whether you need or not it's "
@@ -187,7 +185,7 @@ msgid ""
 "the features you use on our site"
 msgstr ""
 
-#: templates/land/cookies.html:115 templates/land/privacy.html:102
+#: templates/land/cookies.html:111 templates/land/privacy.html:102
 msgid ""
 "However if you are still looking for more information then you can contact "
 "us through one of our preferred contact methods:"
@@ -195,7 +193,7 @@ msgstr ""
 "Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
 "unserer bevorzugten Kontaktmethoden kontaktieren:"
 
-#: templates/land/cookies.html:120 templates/land/privacy.html:107
+#: templates/land/cookies.html:116 templates/land/privacy.html:107
 msgid "info@papermerge.com"
 msgstr "info@papermerge.de"
 
