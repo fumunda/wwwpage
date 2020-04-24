@@ -63,14 +63,17 @@ page-title -->
     <div class="row">
       <div class="col-12">
         <div class="section-title mb-10 mt-30">
-          <h4 class="theme-color">1. How We Use Cookies</h4>
+          <h4 class="theme-color">1. {% trans "How We Use Cookies" %}</h4>
         </div>
         <p>
+        {% blocktrans trimmed %}
         We use cookies for a variety of reasons detailed below.
         Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not.
+        {% endblocktrans %}
         </p>
-        <h4 class="theme-color">2. Disabling Cookies </h4>
+        <h4 class="theme-color">2.{% trans "Disabling Cookies" %} </h4>
       <p>
+        {% blocktrans trimmed %}
       You can prevent the setting of cookies by adjusting the settings on
       your browser (see your browser Help for how to do this). Be aware that
       disabling all cookies will make it impossible for you to use some of our
@@ -78,40 +81,43 @@ page-title -->
       However, disabling only third party cookies - will not affect usage of
       this site at all, which means you can enable strict mode privacy in your
       browser and fully enjoy our services.
+      {% endblocktrans %}
       </p>
       <div class="section-title mb-10 mt-30">
-        <h4 class="theme-color">3. The Cookies We Set </h4>
+        <h4 class="theme-color">3. {% trans "The Cookies We Set" %} </h4>
       </div>
       <ul>
         <li>
-          <p>Email newsletters related cookies</p>
-          <p>This site offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users.</p>
+          <p>{% trans "Email newsletters related cookies" %}</p>
+          <p>{% blocktrans trimmed %}This site offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users.{% endblocktrans %}</p>
         </li>
         <li>
-          <p>Orders processing related cookies</p>
-          <p>This site offers e-commerce or payment facilities and some cookies are essential to ensure that your order is remembered between pages so that we can process it properly.</p>
+          <p>{% trans "Orders processing related cookies" %}</p>
+          <p>{% blocktrans trimmed %}This site offers e-commerce or payment facilities and some cookies are essential to ensure that your order is remembered between pages so that we can process it properly.{% endblocktrans %}</p>
         </li>
         <li>
-          <p>Forms related cookies</p>
-          <p>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p>
+          <p>{% trans "Forms related cookies" %}</p>
+          <p>{% blocktrans trimmed %}When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.{% endblocktrans %}</p>
         </li>
       </ul>
 
       <div class="section-title mb-10 mt-30">
-        <h4 class="theme-color">Third Party Cookies</h4>
+        <h4 class="theme-color">{% trans "Third Party Cookies" %}</h4>
       </div>
-      <p>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.</p>
-      <p>This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p>
-      <p>or more information on Google Analytics cookies, see the official Google Analytics page.</p>
+      <p>{% blocktrans trimmed %}In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.{% endblocktrans %}</p>
+      <p>{% blocktrans trimmed %}This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.{% endblocktrans %}</p>
+      <p>{% blocktrans trimmed %} For more information on Google Analytics cookies, see the official Google Analytics page.{% endblocktrans %}</p>
       <div class="section-title mb-10 mt-30">
-        <h4 class="theme-color">More Information</h4>
+        <h4 class="theme-color">{% trans "More Information" %}</h4>
       </div>
-        <p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site</p>
+        <p>{% blocktrans trimmed %}Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site{% endblocktrans %}</p>
         <p>
+          {% blocktrans trimmed %}
           However if you are still looking for more information then you can contact us through one of our preferred contact methods:
+          {% endblocktrans %}
         </p>
         <p>
-          Email: info@papermerge.com
+          Email: {% trans "info@papermerge.com" %}
         </p>
       </div>
     </div>

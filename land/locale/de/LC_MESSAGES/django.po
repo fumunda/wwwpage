@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 11:25+0200\n"
+"POT-Creation-Date: 2020-04-24 12:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -22,9 +22,7 @@ msgstr ""
 msgid "cookies"
 msgstr "cookies"
 
-msgid "Privacy Policy For Papermerge"
-msgstr "Datenschutzerklärung für Papermerge Website"
-
+#: templates/land/cookies.html:15
 msgid "Cookies Policy For Papermerge Website"
 msgstr "Cookies-Richtlinie für Papermerge Website"
 
@@ -33,6 +31,7 @@ msgstr "Cookies-Richtlinie für Papermerge Website"
 msgid "Home"
 msgstr "Hauptseite"
 
+#: templates/land/cookies.html:19 templates/land/cookies.html:34
 msgid "Cookies Policy"
 msgstr "Cookies-Richtlinie"
 
@@ -68,9 +67,124 @@ msgid ""
 "For more general information on cookies see the <a href="
 "\"%(wiki_cookies_url)s\">%(wiki_article)s</a>"
 msgstr ""
-"Weitere allgemeine Informationen zu Cookies finden Sie auf "
-"<a href="
+"Weitere allgemeine Informationen zu Cookies finden Sie auf <a href="
 "\"%(wiki_cookies_url)s\">%(wiki_article)s</a>"
+
+#: templates/land/cookies.html:66
+msgid "How We Use Cookies"
+msgstr ""
+
+#: templates/land/cookies.html:69
+msgid ""
+"We use cookies for a variety of reasons detailed below. Unfortunately in "
+"most cases there are no industry standard options for disabling cookies "
+"without completely disabling the functionality and features they add to this "
+"site. It is recommended that you leave on all cookies if you are not sure "
+"whether you need them or not."
+msgstr ""
+
+#: templates/land/cookies.html:74
+msgid "Disabling Cookies"
+msgstr ""
+
+#: templates/land/cookies.html:76
+msgid ""
+"You can prevent the setting of cookies by adjusting the settings on your "
+"browser (see your browser Help for how to do this). Be aware that disabling "
+"all cookies will make it impossible for you to use some of our services like "
+"- contact form, sign in, registration for example. However, disabling only "
+"third party cookies - will not affect usage of this site at all, which means "
+"you can enable strict mode privacy in your browser and fully enjoy our "
+"services."
+msgstr ""
+
+#: templates/land/cookies.html:87
+msgid "The Cookies We Set"
+msgstr ""
+
+#: templates/land/cookies.html:91
+msgid "Email newsletters related cookies"
+msgstr ""
+
+#: templates/land/cookies.html:92
+msgid ""
+"This site offers newsletter or email subscription services and cookies may "
+"be used to remember if you are already registered and whether to show "
+"certain notifications which might only be valid to subscribed/unsubscribed "
+"users."
+msgstr ""
+
+#: templates/land/cookies.html:95
+msgid "Orders processing related cookies"
+msgstr ""
+
+#: templates/land/cookies.html:96
+msgid ""
+"This site offers e-commerce or payment facilities and some cookies are "
+"essential to ensure that your order is remembered between pages so that we "
+"can process it properly."
+msgstr ""
+
+#: templates/land/cookies.html:99
+msgid "Forms related cookies"
+msgstr ""
+
+#: templates/land/cookies.html:100
+msgid ""
+"When you submit data to through a form such as those found on contact pages "
+"or comment forms cookies may be set to remember your user details for future "
+"correspondence."
+msgstr ""
+
+#: templates/land/cookies.html:105
+msgid "Third Party Cookies"
+msgstr ""
+
+#: templates/land/cookies.html:107
+msgid ""
+"In some special cases we also use cookies provided by trusted third parties. "
+"The following section details which third party cookies you might encounter "
+"through this site."
+msgstr ""
+
+#: templates/land/cookies.html:108
+msgid ""
+"This site uses Google Analytics which is one of the most widespread and "
+"trusted analytics solution on the web for helping us to understand how you "
+"use the site and ways that we can improve your experience. These cookies may "
+"track things such as how long you spend on the site and the pages that you "
+"visit so we can continue to produce engaging content."
+msgstr ""
+
+#: templates/land/cookies.html:109
+msgid ""
+"For more information on Google Analytics cookies, see the official Google "
+"Analytics page."
+msgstr ""
+
+#: templates/land/cookies.html:111 templates/land/privacy.html:98
+msgid "More Information"
+msgstr "Mehr Informationen"
+
+#: templates/land/cookies.html:113
+msgid ""
+"Hopefully that has clarified things for you and as was previously mentioned "
+"if there is something that you aren't sure whether you need or not it's "
+"usually safer to leave cookies enabled in case it does interact with one of "
+"the features you use on our site"
+msgstr ""
+
+#: templates/land/cookies.html:115 templates/land/privacy.html:102
+msgid ""
+"However if you are still looking for more information then you can contact "
+"us through one of our preferred contact methods:"
+msgstr ""
+"Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
+"unserer bevorzugten Kontaktmethoden kontaktieren:"
+
+#: templates/land/cookies.html:120 templates/land/privacy.html:107
+msgid "info@papermerge.com"
+msgstr "info@papermerge.de"
 
 #: templates/land/index.html:16
 msgid "Open Source Document Management System"
@@ -474,6 +588,10 @@ msgstr "Benachrichtigt werden"
 msgid "All Rights Reserved"
 msgstr "Alle Rechte vorbehalten"
 
+#: templates/land/privacy.html:15
+msgid "Privacy Policy For Papermerge"
+msgstr "Datenschutzerklärung für Papermerge Website"
+
 #: templates/land/privacy.html:37
 #, python-format
 msgid ""
@@ -610,25 +728,9 @@ msgstr ""
 "diesbezüglichen Anfragen an info@papermerge.de oder schreiben Sie uns an die "
 "oben angegebene Adresse."
 
-#: templates/land/privacy.html:98
-msgid "More Information"
-msgstr "Mehr Informationen"
-
 #: templates/land/privacy.html:100
 msgid "Hopefully that has clarified things for you."
 msgstr "Hoffentlich hat das alles für Sie geklärt"
-
-#: templates/land/privacy.html:102
-msgid ""
-"However if you are still looking for more information then you can contact "
-"us through one of our preferred contact methods:"
-msgstr ""
-"Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
-"unserer bevorzugten Kontaktmethoden kontaktieren:"
-
-#: templates/land/privacy.html:107
-msgid "info@papermerge.com"
-msgstr "info@papermerge.de"
 
 #, fuzzy
 #~| msgid "Privacy Policy"
