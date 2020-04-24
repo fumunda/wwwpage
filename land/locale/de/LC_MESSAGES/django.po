@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 12:23+0200\n"
+"POT-Creation-Date: 2020-04-24 12:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -26,8 +26,9 @@ msgstr "cookies"
 msgid "Cookies Policy For Papermerge Website"
 msgstr "Cookies-Richtlinie für Papermerge Website"
 
-#: templates/land/cookies.html:18 templates/land/layout.html:71
-#: templates/land/layout.html:113 templates/land/privacy.html:18
+#: templates/land/cookies.html:18 templates/land/imprint.html:17
+#: templates/land/layout.html:71 templates/land/layout.html:113
+#: templates/land/privacy.html:18
 msgid "Home"
 msgstr "Hauptseite"
 
@@ -171,11 +172,11 @@ msgid ""
 "visit so we can continue to produce engaging content."
 msgstr ""
 "Diese Website verwendet Google Analytics, eine der am weitesten verbreiteten "
-"und vertrauenswürdigsten Analyselösungen im Internet, um zu verstehen, wie Sie "
-"die Website nutzen und wie wir Ihre Erfahrung verbessern können. Diese Cookies "
-"können beispielsweise nachverfolgen, wie viel Zeit Sie auf der Website "
-"verbringen und welche Seiten Sie besuchen, damit wir weiterhin ansprechende "
-"Inhalte erstellen können. "
+"und vertrauenswürdigsten Analyselösungen im Internet, um zu verstehen, wie "
+"Sie die Website nutzen und wie wir Ihre Erfahrung verbessern können. Diese "
+"Cookies können beispielsweise nachverfolgen, wie viel Zeit Sie auf der "
+"Website verbringen und welche Seiten Sie besuchen, damit wir weiterhin "
+"ansprechende Inhalte erstellen können. "
 
 #: templates/land/cookies.html:105
 msgid ""
@@ -184,7 +185,6 @@ msgid ""
 msgstr ""
 "Weitere Informationen zu Google Analytics-Cookies finden Sie auf der "
 "offiziellen Google Analytics-Seite. "
-
 
 #: templates/land/cookies.html:107 templates/land/privacy.html:98
 msgid "More Information"
@@ -199,9 +199,10 @@ msgid ""
 msgstr ""
 "Hoffentlich hat das Alle für Sie geklärt und wie bereits erwähnt, ist es "
 "normalerweise sicherer, Cookies aktiviert zu lassen, wenn sie mit einer der "
-"Funktionen interagieren, die Sie auf unserer Website verwenden, wenn Sie nicht "
-"sicher sind, ob Sie sie benötigen oder nicht. Weitere Informationen zu Google "
-"Analytics-Cookies finden Sie auf der offiziellen Google Analytics-Seite."
+"Funktionen interagieren, die Sie auf unserer Website verwenden, wenn Sie "
+"nicht sicher sind, ob Sie sie benötigen oder nicht. Weitere Informationen zu "
+"Google Analytics-Cookies finden Sie auf der offiziellen Google Analytics-"
+"Seite."
 
 #: templates/land/cookies.html:111 templates/land/privacy.html:102
 msgid ""
@@ -211,9 +212,39 @@ msgstr ""
 "Wenn Sie jedoch noch weitere Informationen suchen, können Sie uns über eine "
 "unserer bevorzugten Kontaktmethoden kontaktieren:"
 
-#: templates/land/cookies.html:116 templates/land/privacy.html:107
+#: templates/land/cookies.html:116 templates/land/imprint.html:46
+#: templates/land/privacy.html:107
 msgid "info@papermerge.com"
 msgstr "info@papermerge.de"
+
+#: templates/land/imprint.html:13 templates/land/imprint.html:18
+#: templates/land/layout.html:126
+msgid "Imprint"
+msgstr "Impressum"
+
+#: templates/land/imprint.html:14
+msgid "Publisher Info"
+msgstr "Diensteanbieter Informationen"
+
+msgid "https://en.wikipedia.org/wiki/Impressum#On_webpages"
+msgstr "https://de.wikipedia.org/wiki/Impressum"
+
+#: templates/land/imprint.html:33
+msgid "https://www.gesetze-im-internet.de/tmg/"
+msgstr "https://www.gesetze-im-internet.de/tmg/"
+
+#: templates/land/imprint.html:34
+msgid "German Telemedia Act"
+msgstr "Telemediengesetz"
+
+#: templates/land/imprint.html:35
+#, python-format
+msgid ""
+"<a href=\"%(wiki_url)s\">%(telemedia_act)s</a> (in german <a href="
+"\"%(gesetze_url)s\">Telemediengesetz</a>) requires that german websites "
+"disclose information about their publisher:"
+msgstr ""
+"<a href=\"%(wiki_url)s\">%(telemedia_act)s</a> (Gesetze im Internet<a href=\"%(gesetze_url)s\">Telemediengesetz</a>) verlangt, dass deutsche Websites Informationen über ihren Diensteanbieter offenlegen:"
 
 #: templates/land/index.html:16
 msgid "Open Source Document Management System"
@@ -586,10 +617,6 @@ msgstr "Datenschutz"
 #: templates/land/layout.html:125
 msgid "Cookie Policy"
 msgstr "Cookie-Richtlinie"
-
-#: templates/land/layout.html:126
-msgid "Imprint"
-msgstr "Impressum"
 
 #: templates/land/layout.html:133
 msgid "Address"
