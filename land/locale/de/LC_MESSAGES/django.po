@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 08:29+0200\n"
+"POT-Creation-Date: 2020-04-24 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eugen Ciur <eugen@papermerge.com>\n"
 "Language-Team: Eugen Ciur <eugen@papermerge.com>\n"
@@ -480,7 +480,76 @@ msgid ""
 "optimize the users' experience by customizing our web page content based on "
 "visitors' browser type and/or other information."
 msgstr ""
-"Wie jede andere Website verwendet auch die Papermerge-Website 'Cookies'."
-" Diese Cookies werden verwendet, um Informationen zu speichern, einschließlich der Präferenzen der Besucher und der Seiten auf der Website, auf die der Besucher zugegriffen oder die er besucht hat."
-" Die Informationen werden verwendet, um die Benutzererfahrung zu verbessern, indem der Inhalt unserer" "Webseite basierend auf dem Browsertyp der Besucher und / oder anderen Informationen angepasst wird."
+"Wie jede andere Website verwendet auch die Papermerge-Website 'Cookies'. "
+"Diese Cookies werden verwendet, um Informationen zu speichern, "
+"einschließlich der Präferenzen der Besucher und der Seiten auf der Website, "
+"auf die der Besucher zugegriffen oder die er besucht hat. Die Informationen "
+"werden verwendet, um die Benutzererfahrung zu verbessern, indem der Inhalt "
+"unsererWebseite basierend auf dem Browsertyp der Besucher und / oder anderen "
+"Informationen angepasst wird."
 
+#: templates/land/privacy.html:71
+msgid ""
+"Google is one of a third-party vendor on our site. It also uses cookies, "
+"known as DART cookies, to serve ads to our site visitors based upon their "
+"visit to www.website.com and other sites on the internet. However, visitors "
+"may choose to decline the use of DART cookies by visiting the Google ad and "
+"content network Privacy Policy at the following URL – https://policies."
+"google.com/technologies/ads"
+msgstr ""
+
+#: templates/land/privacy.html:77
+#, fuzzy
+#| msgid "Privacy Policy"
+msgid "Privacy Policies"
+msgstr "Datenschutz"
+
+#: templates/land/privacy.html:80
+msgid ""
+"Third-party ad servers or ad networks uses technologies like cookies, "
+"JavaScript, or Web Beacons that are used in their respective advertisements "
+"and links that appear on Papermerge, which are sent directly to users' "
+"browser. They automatically receive your IP address when this occurs. These "
+"technologies are used to measure the effectiveness of their advertising "
+"campaigns and/or to personalize the advertising content that you see on "
+"websites that you visit. Note that Papermerge has no access to or control "
+"over these cookies that are used by third-party advertisers."
+msgstr ""
+
+#: templates/land/privacy.html:84
+msgid "Your Rights"
+msgstr ""
+
+#: templates/land/privacy.html:87
+msgid ""
+"You are entitled, upon request, to disclosure regarding your personal data "
+"that we are storing or are otherwise processing. You are also entitled to "
+"have any incorrect personal data corrected and rights to blocking or "
+"deletion of your personal data. Under certain conditions, you have the right "
+"to object to processing of your personal data, and as far as the EU "
+"Regulation 2016/679 (GDPR) has entered into force you may ask to receive "
+"your personal data in a structured and commonly used format so that it can "
+"easily be transferred to you or another data controller you appoint (this is "
+"known as “data portability”)."
+msgstr ""
+
+#: templates/land/privacy.html:92
+msgid ""
+"If you have any complaints regarding our processing of your personal data, "
+"we encourage you to contact us. Please address any requests in such matters "
+"to info@papermerge.com or write to us at the address stated above."
+msgstr ""
+
+#: templates/land/privacy.html:98
+msgid "More Information"
+msgstr ""
+
+#: templates/land/privacy.html:100
+msgid "Hopefully that has clarified things for you."
+msgstr ""
+
+#: templates/land/privacy.html:102
+msgid ""
+"However if you are still looking for more information then you can contact "
+"us through one of our preferred contact methods:"
+msgstr ""
