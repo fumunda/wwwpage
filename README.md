@@ -1,5 +1,4 @@
 Reusable app for:
 
-    www.papermerge.com
-    www.papermerge.de
-    www.eugenci.com
+    https://papermerge.com
+    https://papermerge.de
