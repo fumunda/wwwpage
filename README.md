@@ -1,4 +1,4 @@
 Reusable app for:
 
-    https://papermerge.com
-    https://papermerge.de
+* [English landing page](https://papermerge.com)
+* [German landing page](https://papermerge.de)
